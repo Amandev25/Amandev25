@@ -1,7 +1,7 @@
 [![MasterHead](https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/dempgi7-520f8d5f-63d4-4453-8822-dbc149ae27f8.gif?alt=media&token=91c0c7b2-93c3-4029-b011-1a8703c5730d)](https://Amandev25.io)
 <h1 align="center">Hi 👋, I'm Aman Yadav</h1>
 <h3 align="center">A passionate Software developer from India</h3>
-<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/212750672-2f3f2b50-c84f-4ed8-a60a-849ae69ff9df.gif">
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=amandev25&label=Profile%20views&color=0e75b6&style=flat" alt="amandev25" /> </p>
 
 <p align="left"> <a href="https://twitter.com/amanyadav_dev25" target="blank"><img src="https://img.shields.io/twitter/follow/amanyadav_dev25?logo=twitter&style=for-the-badge" alt="amanyadav_dev25" /></a> </p>
