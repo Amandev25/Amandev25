@@ -12,7 +12,7 @@
 
 - 📫 How to reach me **amanyadav.dev25@gmail.com**
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1m_V9lwZfK_k_dVSNaxmuL4aceqAVS7uw/view?usp=drive_link](https://drive.google.com/file/d/1m_V9lwZfK_k_dVSNaxmuL4aceqAVS7uw/view?usp=drive_link)
+- 📄 Know about my experiences [https://drive.google.com/file/d/1m_V9lwZfK_k_dVSNaxmuL4aceqAVS7uw/view?usp=drive_link](https://drive.google.com/_dVSNaxmuL4aceqAVS7uw/view?usp=drive_link)
 
 - ⚡ Fun fact **My favorite algorithm? “Ctrl + Z” 🕹️**
 
