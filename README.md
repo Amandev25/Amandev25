@@ -140,7 +140,7 @@
  <div align="center">
   <h2>Github stats</h2> 
   
- [![My GitHub stats](https://github-readme-stats.vercel.app/api?username=22tushar&show_icons=true&theme=onedark)](https://github.com/Amandev25/github-readme-stats)
+ [![My GitHub stats](https://github-readme-stats.vercel.app/api?username=Amandev25&show_icons=true&theme=onedark)](https://github.com/Amandev25/github-readme-stats)
   
 </div>
 <hr>
