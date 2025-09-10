@@ -1,13 +1,30 @@
 name: Metrics
+# run hourly (you can change schedule) and allow manual runs
 on:
-  schedule: [{cron: "0 * * * *"}]
+  schedule:
+    - cron: '0 * * * *'
   workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    # allow the action to write files back to the repo
+    permissions:
+      contents: write
+
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Generate metrics (lowlighter/metrics)
+        uses: lowlighter/metrics@latest
         with:
+          # recommended: create a repo secret named METRICS_TOKEN and put a PAT there (see steps below)
           token: ${{ secrets.METRICS_TOKEN }}
-          base: header, activity
+          user: Amandev25        # <-- replace this with your username
+          template: classic
+          base: header, activity      # header + the activity (radar/spider) plugin
           plugin_activity: yes
+          plugin_activity_days: 90
+          plugin_activity_limit: 10
