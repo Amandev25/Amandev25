@@ -1,7 +1,9 @@
 name: Metrics
 on:
-  schedule: [{cron: "0 * * * *"}]  # Runs every hour
+  # Runs every 6 hours
+  schedule: [{cron: "0 */6 * * *"}]
   workflow_dispatch:
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -10,14 +12,14 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
-          # Base stats
+          # Base sections
           base: header, activity, community, repositories, metadata
 
-          # Enable activity plugin (this gives you the radar chart)
+          # Plugins
+          plugin_isocalendar: yes
           plugin_activity: yes
-          plugin_activity_days: 14      # Past 2 weeks
-          plugin_activity_filter: all   # Show commits, PRs, issues, reviews
+          plugin_activity_days: 14        # Past 2 weeks
+          plugin_activity_filter: all     # Show commits, PRs, issues, reviews
           plugin_activity_limit: 5
           plugin_activity_visibility: public
-          plugin_activity_timestamps: yes
-          plugin_activity_skipped: no
+
