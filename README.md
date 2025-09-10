@@ -144,7 +144,8 @@
   
 </div>
 <hr>
-![Metrics](./github-metrics.svg)
+![GitHub Metrics](https://raw.githubusercontent.com/Amandev25/Amandev25/main/github-metrics.svg)
+
 
 
 
