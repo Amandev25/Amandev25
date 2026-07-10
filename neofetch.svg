@@ -1,0 +1,86 @@
+<svg viewBox="0 0 960 600" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, 'DejaVu Sans Mono', monospace">
+  <defs>
+    <linearGradient id="ascii" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7aa2f7"/>
+      <stop offset="100%" stop-color="#bb9af7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- window -->
+  <rect x="1" y="1" width="958" height="598" rx="14" fill="#1a1b26" stroke="#2a2e3f" stroke-width="1.5"/>
+
+  <!-- title bar -->
+  <circle cx="26" cy="26" r="6.5" fill="#ff5f57"/>
+  <circle cx="48" cy="26" r="6.5" fill="#febc2e"/>
+  <circle cx="70" cy="26" r="6.5" fill="#28c840"/>
+  <text x="480" y="31" text-anchor="middle" font-size="14" fill="#565f89">aman@github: ~/profile</text>
+  <line x1="1" y1="48" x2="959" y2="48" stroke="#2a2e3f" stroke-width="1.5"/>
+
+  <!-- ASCII art -->
+  <text x="34" y="165" xml:space="preserve" font-size="14" fill="url(#ascii)" letter-spacing="0.5">
+    <tspan x="34" dy="0">         a8888b.</tspan>
+    <tspan x="34" dy="17">        d888888b.</tspan>
+    <tspan x="34" dy="17">        8P"YP"Y88</tspan>
+    <tspan x="34" dy="17">        8|o||o|88</tspan>
+    <tspan x="34" dy="17">        8'    .88</tspan>
+    <tspan x="34" dy="17">        8`._.' Y8.</tspan>
+    <tspan x="34" dy="17">       d/      `8b.</tspan>
+    <tspan x="34" dy="17">     .dP   .     Y8b.</tspan>
+    <tspan x="34" dy="17">    d8:'   "   `::88b.</tspan>
+    <tspan x="34" dy="17">   d8"           `Y88b</tspan>
+    <tspan x="34" dy="17">  :8P     '       :888</tspan>
+    <tspan x="34" dy="17">   8a.    :      _a88P</tspan>
+    <tspan x="34" dy="17"> ._/"Yaa_ :    .| 88P|</tspan>
+    <tspan x="34" dy="17"> \    YP"      `| 8P  `.</tspan>
+    <tspan x="34" dy="17"> /     \._____.d|    .'</tspan>
+    <tspan x="34" dy="17"> `--..__)888888P`._.'</tspan>
+  </text>
+
+  <!-- info column -->
+  <g font-size="15">
+    <text x="340" y="96"><tspan fill="#9ece6a">aman</tspan><tspan fill="#565f89">@</tspan><tspan fill="#9ece6a">github</tspan><tspan fill="#3b4261">  ─────────────────────────────────────────</tspan></text>
+
+    <text x="340" y="124"><tspan fill="#7aa2f7">OS</tspan><tspan fill="#3b4261"> ············ </tspan><tspan fill="#c0caf5">Windows 11 / WSL2 (Ubuntu)</tspan></text>
+    <text x="340" y="145"><tspan fill="#7aa2f7">Host</tspan><tspan fill="#3b4261"> ·········· </tspan><tspan fill="#c0caf5">Central University of Jharkhand</tspan></text>
+    <text x="340" y="166"><tspan fill="#7aa2f7">Kernel</tspan><tspan fill="#3b4261"> ········ </tspan><tspan fill="#c0caf5">B.Tech CSE (ML/DS) · CGPA 8.53</tspan></text>
+    <text x="340" y="187"><tspan fill="#7aa2f7">Uptime</tspan><tspan fill="#3b4261"> ········ </tspan><tspan fill="#c0caf5">Final Year · Graduating June 2026</tspan></text>
+    <text x="340" y="208"><tspan fill="#7aa2f7">Status</tspan><tspan fill="#3b4261"> ········ </tspan><tspan fill="#c0caf5">Open to SDE roles · India + Remote</tspan></text>
+
+    <text x="340" y="240"><tspan fill="#bb9af7">Lang.Prog</tspan><tspan fill="#3b4261"> ····· </tspan><tspan fill="#c0caf5">JavaScript · TypeScript · C++ · Python</tspan></text>
+    <text x="340" y="261"><tspan fill="#bb9af7">Lang.Web</tspan><tspan fill="#3b4261"> ······ </tspan><tspan fill="#c0caf5">React · Next.js · Node · Express</tspan></text>
+    <text x="340" y="282"><tspan fill="#bb9af7">Database</tspan><tspan fill="#3b4261"> ······ </tspan><tspan fill="#c0caf5">MongoDB · PostgreSQL</tspan></text>
+    <text x="340" y="303"><tspan fill="#bb9af7">AI/Agents</tspan><tspan fill="#3b4261"> ····· </tspan><tspan fill="#c0caf5">LangGraph · ChromaDB · Groq · SHAP</tspan></text>
+    <text x="340" y="324"><tspan fill="#bb9af7">DevOps</tspan><tspan fill="#3b4261"> ········ </tspan><tspan fill="#c0caf5">AWS EC2 · Docker · Git · Socket.IO</tspan></text>
+
+    <text x="340" y="356"><tspan fill="#e0af68">Learning</tspan><tspan fill="#3b4261"> ······ </tspan><tspan fill="#c0caf5">Backend &amp; System Design</tspan></text>
+    <text x="340" y="377"><tspan fill="#e0af68">Ask Me</tspan><tspan fill="#3b4261"> ········ </tspan><tspan fill="#c0caf5">MERN Stack &amp; DSA</tspan></text>
+    <text x="340" y="398"><tspan fill="#e0af68">Fun Fact</tspan><tspan fill="#3b4261"> ······ </tspan><tspan fill="#c0caf5">Favorite algorithm: Ctrl + Z</tspan></text>
+
+    <text x="340" y="430"><tspan fill="#7dcfff">Contact</tspan><tspan fill="#3b4261">  ─────────────────────────────────────────</tspan></text>
+    <text x="340" y="456"><tspan fill="#7aa2f7">Email</tspan><tspan fill="#3b4261"> ········· </tspan><tspan fill="#c0caf5">amanyadav.dev25@gmail.com</tspan></text>
+    <text x="340" y="477"><tspan fill="#7aa2f7">GitHub</tspan><tspan fill="#3b4261"> ········ </tspan><tspan fill="#c0caf5">Amandev25</tspan></text>
+    <text x="340" y="498"><tspan fill="#7aa2f7">LinkedIn</tspan><tspan fill="#3b4261"> ······ </tspan><tspan fill="#c0caf5">aman-yadav-325ba6316</tspan></text>
+    <text x="340" y="519"><tspan fill="#7aa2f7">Twitter</tspan><tspan fill="#3b4261"> ······· </tspan><tspan fill="#c0caf5">@amanyadav_dev25</tspan></text>
+  </g>
+
+  <!-- color palette blocks -->
+  <g>
+    <rect x="340" y="536" width="18" height="14" fill="#15161e"/>
+    <rect x="366" y="536" width="18" height="14" fill="#f7768e"/>
+    <rect x="392" y="536" width="18" height="14" fill="#9ece6a"/>
+    <rect x="418" y="536" width="18" height="14" fill="#e0af68"/>
+    <rect x="444" y="536" width="18" height="14" fill="#7aa2f7"/>
+    <rect x="470" y="536" width="18" height="14" fill="#bb9af7"/>
+    <rect x="496" y="536" width="18" height="14" fill="#7dcfff"/>
+    <rect x="522" y="536" width="18" height="14" fill="#a9b1d6"/>
+
+    <rect x="340" y="556" width="18" height="14" fill="#414868"/>
+    <rect x="366" y="556" width="18" height="14" fill="#ff899d"/>
+    <rect x="392" y="556" width="18" height="14" fill="#b9f27c"/>
+    <rect x="418" y="556" width="18" height="14" fill="#ffc777"/>
+    <rect x="444" y="556" width="18" height="14" fill="#82aaff"/>
+    <rect x="470" y="556" width="18" height="14" fill="#c099ff"/>
+    <rect x="496" y="556" width="18" height="14" fill="#86e1fc"/>
+    <rect x="522" y="556" width="18" height="14" fill="#c8d3f5"/>
+  </g>
+</svg>
